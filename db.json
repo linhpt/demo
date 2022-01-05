@@ -35,5 +35,7 @@
         "name": null,
         "type": "FIXED",
         "recipe": "49000.0"
+    },
+    "contracts" :{
     }
 }
