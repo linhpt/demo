@@ -31,9 +31,9 @@
             ]
         }
     },
-  "fees": {
-    "name": null,
-    "type": "FIXED",
-    "recipe": "49000.0"
-  }
+    "fees": {
+        "name": null,
+        "type": "FIXED",
+        "recipe": "49000.0"
+    }
 }
