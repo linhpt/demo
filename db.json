@@ -1,14 +1,74 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "api": {
+        "v5": {
+            "client": {
+                "job": {
+                    "company_id": 18,
+                    "period_id": 221,
+                    "period_month": 1,
+                    "period_year": 2022,
+                    "wage": 500000000,
+                    "total_work_days": 21,
+                    "worked_days": 0,
+                    "advanced_amount": 0,
+                    "total_amount": 0,
+                    "one_day_amount": 23809523,
+                    "accessible_amount": 0,
+                    "income_stream_type": "ATTENDANCES",
+                    "sensitive_exposed": false,
+                    "accessible": false,
+                    "free_this_time": true,
+                    "rule": {
+                        "id": 902,
+                        "max_percent": 100,
+                        "max_value": null,
+                        "max_each_request": 5000000,
+                        "min_each_request": 100000,
+                        "start_day": null,
+                        "end_day": null,
+                        "min_worked_day": null,
+                        "max_use_times": null,
+                        "disbursement_time_variant": [
+                            "INSTANT",
+                            "H24"
+                        ]
+                    }
+                },
+                "fees": {
+                    "name": null,
+                    "type": "FIXED",
+                    "recipe": "49000.0"
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
 }
