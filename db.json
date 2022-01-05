@@ -9,7 +9,7 @@
         "worked_days": 2,
         "advanced_amount": 0,
         "total_amount": 0,
-        "one_day_amount": 23809523,
+        "one_day_amount": 30000000,
         "accessible_amount": 0,
         "income_stream_type": "ATTENDANCES",
         "sensitive_exposed": false,
@@ -36,34 +36,4 @@
         "type": "FIXED",
         "recipe": "49000.0"
       },
-    
-    "posts": [
-        {
-            "id": 1,
-            "title": "Post 1"
-        },
-        {
-            "id": 2,
-            "title": "Post 2"
-        },
-        {
-            "id": 3,
-            "title": "Post 3"
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        },
-        {
-            "id": 2,
-            "body": "some comment",
-            "postId": 1
-        }
-    ],
-    "profile": {
-        "name": "typicode"
-    }
 }
