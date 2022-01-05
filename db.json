@@ -14,7 +14,7 @@
         "income_stream_type": "ATTENDANCES",
         "sensitive_exposed": false,
         "accessible": true,
-        "free_this_time": false,
+        "free_this_time": true,
         "rule": {
             "id": 902,
             "max_percent": 100,
@@ -37,5 +37,6 @@
         "recipe": "49000.0"
     },
     "contracts": {
-    },
+        "id": 902
+    }
 }
